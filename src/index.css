@@ -160,6 +160,12 @@ nav .collapse .navbar-nav .nav-item .nav-link {
     display: none;
   }
 }
+@media only screen and (max-width: 767px) {
+  .music-player-container .mt-4 label, .music-player-container .mt-4 #volume{
+    display: none;
+  }
+}
+
 /* Music-player Component Styling Ends */
 
 /* Community Component Styling Starts */
@@ -266,8 +272,17 @@ footer {
   background-color: #0d0d0d;
 }
 
-footer a {
-  text-decoration: none;
+footer .p-3 span{
+  font-size: 18px;
+}
+
+footer .p-3 span{
+  color: #067d2d;
+  transition: 1s;
+}
+
+footer .p-3 span:hover{
+  color: #0062ff;
 }
 /* Footer Component Styling Ends */
 /* Whole Document Styling Ends */

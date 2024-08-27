@@ -126,7 +126,7 @@ const MusicPlayer = () => {
           {uploadedFiles.map((file, index) => (
             <li key={index} className="mb-3">
               <div className="d-flex justify-content-between align-items-center">
-                <audio ref={audioRef} src={currentTrack} controls>
+                <audio ref={audioRef} src={currentTrack}>
                   <source src={file.url} type={file.type} />
                   Your browser does not support the audio element.
                 </audio>
@@ -171,10 +171,10 @@ const MusicPlayer = () => {
                 </div>
               </div>
               <div className="mt-2">
-                <strong>Details:</strong>
-                <p>Name: {file.name}</p>
-                <p>Type: {file.type}</p>
-                <p>Date Added: {file.dateAdded}</p>
+                <strong>Details :</strong>
+                <p>Name : {file.name}</p>
+                <p>Type : {file.type}</p>
+                <p>Date Added : {file.dateAdded}</p>
               </div>
               <div className="progress mt-2">
                 <div

@@ -81,7 +81,7 @@ const Community = () => {
               <button onClick={() => handleDeletePost(index)}>Delete</button>
               <button onClick={() => handleShareLink(post)}>Share</button>
               <div className="comments">
-                <h4>Comments:</h4>
+                <h4>Comments :</h4>
                 <div>
                   <textarea
                     value={newComment[post.id] || ''}

@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <>
             <nav className="navbar navbar-expand-lg fixed-top navbar-dark p-4">
-                <Link className="navbar-brand" to="/"><span>Groove</span>Nexus</Link>
+                <Link className="navbar-brand" to="/CodeAlpha_Music_Player"><span>Groove</span>Nexus</Link>
 
                 <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#my-items">
                     <span className="navbar-toggler-icon"></span>
